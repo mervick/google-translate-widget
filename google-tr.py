@@ -105,7 +105,7 @@ languages = [
 class GoogleTranslate:
     def __init__(self):
         builder = Gtk.Builder()
-        builder.add_from_file("ui3.glade")
+        builder.add_from_file("ui.glade")
         self.win = builder.get_object("window")
         """ :type: Gtk.Window """
         self.win.set_title('Google Translate')
